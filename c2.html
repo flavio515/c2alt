@@ -4,7 +4,9 @@
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
         <a-marker type="pattern" url=resources/markers/pattern-Individual_Blocks-1.patt>
-            <a-image url=resources/cards/Carta01.png width="1" height="2"></a-image>
+          <a-assets>
+            <img id="my-image" src="resources/cards/Carta01.png">
+          </a-assets>
       </a-marker>
       <a-entity camera></a-entity>
     </a-scene>
